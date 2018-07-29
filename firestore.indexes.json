@@ -1,3 +1,14 @@
 {
-  "indexes": []
+  "indexes": [{
+    "collectionId": "groups/{groupId}/tasks",
+    "fields": [{
+        "fieldPath": "dueTime",
+        "mode": "ASCENDING"
+      },
+      {
+        "fieldPath": "createTime",
+        "mode": "DESCENDING"
+      }
+    ]
+  }]
 }
